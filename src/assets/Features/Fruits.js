@@ -4,13 +4,13 @@ const initialState = {
   list: [
     {
       name: "mangue",
-      url: "/images/mangue.jpg",
+      url: import.meta.env.BASE_URL + "images/mangue.jpg",
       price: 300,
       id: 200620,
     },
     {
       name: "pasteque",
-      url: "/images/pasteque.jpg",
+      url: import.meta.env.BASE_URL + "images/pasteque.jpg",
       price: 500,
       id: 200621,
     },
